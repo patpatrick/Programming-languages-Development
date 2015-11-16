@@ -28,9 +28,17 @@
 ###### 4.1.3 Write ASTsequence the Test class (in JUnit 4) and the class meets castsequence minimally in this test. Index: XMLUnit is useful for comparing documents XML ments.
 *See com.paracamplus.ilp1.ilp1tme1.test.ASTsequenceTest*.
 
-##### 4.1.4 Then check if you substitute your castsequence class mine, all ILP1 the tests still work. To do this, we need to look at the ASTfactory class.
+###### 4.1.4 Then check if you substitute your castsequence class mine, all ILP1 the tests still work. To do this, we need to look at the ASTfactory class.
 *See files:*
 
 1. *com.paracamplus.ilp1tme1.compiler.test.CompilerTest*
 2. *com.paracamplus.ilp1tme1.interpreter.test.InterpreterTest*
 3. *com.paracamplus.ilp1tme1.test.WholeTestSuite* 
+
+## 5. .Basic tests
+### __Objectives__: Enrich the basic ILP tests
+#### Goals
+1. Understand the test suites in ILP1.
+2. Enrichir la base des programmes ILP de test.
+
+##### 5.1 Add a few ILP1 programs based tests for the discriminating lant calculated program you wrote above indicating the results and / or expected prints.
