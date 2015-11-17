@@ -1,4 +1,22 @@
 # Exercices
+## 3. Programming in ILP1
+### __Objectives__:  Understand all the steps to write and execute a pro- gram ILP1.
+#### Goals
+1. Write a ILP1 program.
+2. The developing syntactically by validation.
+3. Le mettre au point sémantiquement par son exécution.
+
+#### 3.3 Work to be done
+Écrire un programme ILP1 qui calcule le discriminant d’une équation du second de- gré étant donnés les coefficients a, b, c. Votre programme doit d’abord lier les variables a, b et c aux valeurs choisies pour exécuter le calcul (avec des blocs unaires enchâs- sés). Ensuite, le programme calcule le discriminant et doit retourner l’une des chaînes suivantes :
+
+* discriminating negative: no roots
+* positive discriminant: two roots
+* discriminant zero: one root
+
+Your program must of course be well-formed and valid. Also try not compute
+the discriminant at most once. The evaluation of this program is the subject of a following section.
+Once you know write JUnit tests (see below), you can write the appropriate tests for your discriminating program: see section 5.
+
 ## 4. Test JUnit
 ### __Objectives__: Write a test according to the conventions of JUnit4 and ILP.
 #### Goals
@@ -8,8 +26,8 @@
 ##### 4.1 Work to be done
 
 ###### 4.1.1 Identify all test classes in sources ILP1
-1. com/paracamplus/ilp1/compiler/test/CompilerTest.java
-2. com/paracamplus/ilp1/interpreter/test/InterpreterTest.java
+1. sparacamplus/ilp1/compiler/test/CompilerTest.java
+2. oll the steps to write and execute a pro- gram ILP1.m/paracamplus/ilp1/interpreter/test/InterpreterTest.java
 3. com/paracamplus/ilp1/test/WholeTestSuite.java
 4. com/paracamplus/ilp1/tools/test/FileToolTest.java
 5. com/paracamplus/ilp1/tools/test/ProgramCallerTest.java
@@ -42,3 +60,10 @@
 2. Enrichir la base des programmes ILP de test.
 
 ##### 5.1 Add a few ILP1 programs based tests for the discriminating lant calculated program you wrote above indicating the results and / or expected prints.
+##### 5.2 Tester que l’ensemble ainsi enrichi de programmes continue à passer WholeTestSuite.
+
+*See the files :*
+
+1. *Samples/u50-1.xml*
+2. *Samples/u50-1.result*
+3. *Samples/u50-1.print* 
