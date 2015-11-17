@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<!--  Simple addition. -->
+<!--
+let x = 1 in
+    let y = 2 in
+        result = x + y in
+            print result
+-->
+ 
+<program>
+    <block>
+        <bindings>
+            <binding>
+                <variable name='x' />
+                <initialisation>
+                    <integer value='1' />
+                </initialisation>
+            </binding>
+            <binding>
+                <variable name='y' />
+                <initialisation>
+                    <integer value='2' />
+                </initialisation>
+            </binding>
+        </bindings>
+        <body>
+            <block>
+                <bindings>
+                    <binding>
+                        <variable name='result'/>
+                        <initialisation>
+                            <binaryOperation operator='+'>
+                                <leftOperand>
+                                    <variable name='x'/>
+                                </leftOperand>
+                                <rightOperand>
+                                    <variable name='y'/>
+                                </rightOperand>
+                            </binaryOperation>
+                        </initialisation>
+                    </binding>
+                </bindings>
+                <body>
+                    <invocation>
+                        <function><variable name='print'/></function>
+                        <arguments>
+                            <variable name='result'/>
+                        </arguments>
+                    </invocation>
+                </body>
+            </block>
+        </body>
+    </block>
+    <integer value="0" />
+</program>
