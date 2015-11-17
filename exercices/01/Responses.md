@@ -17,6 +17,12 @@ Your program must of course be well-formed and valid. Also try not compute
 the discriminant at most once. The evaluation of this program is the subject of a following section.
 Once you know write JUnit tests (see below), you can write the appropriate tests for your discriminating program: see section 5.
 
+*Sees files:*
+
+1. *u49-1.xml*
+2. *u49-1.print*
+3. *u49-1.result*
+
 ## 4. Test JUnit
 ### __Objectives__: Write a test according to the conventions of JUnit4 and ILP.
 #### Goals
