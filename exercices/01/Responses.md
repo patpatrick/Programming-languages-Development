@@ -19,9 +19,9 @@ Once you know write JUnit tests (see below), you can write the appropriate tests
 
 *Sees files:*
 
-1. *u49-1.xml*
-2. *u49-1.print*
-3. *u49-1.result*
+1. *Samples/u49-1.xml*
+2. *Samples/u49-1.print*
+3. *Samlpes/u49-1.result*
 
 ## 4. Test JUnit
 ### __Objectives__: Write a test according to the conventions of JUnit4 and ILP.
