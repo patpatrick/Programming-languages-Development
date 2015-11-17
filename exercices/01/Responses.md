@@ -66,7 +66,7 @@ Once you know write JUnit tests (see below), you can write the appropriate tests
 2. Enrichir la base des programmes ILP de test.
 
 ##### 5.1 Add a few ILP1 programs based tests for the discriminating lant calculated program you wrote above indicating the results and / or expected prints.
-##### 5.2 Tester que l’ensemble ainsi enrichi de programmes continue à passer WholeTestSuite.
+##### 5.2 Test the whole and enriched programs continues to pass WholeTestSuite.
 
 *See the files :*
 
